@@ -8,9 +8,7 @@ function Table({ plates = [] }) {
 
   return (
     <>
-      <h1 className="remaining">
-        You have: ${100} remaining!
-      </h1>
+      
       <div className="table">
         <div className="stack">{emptyPlates}</div>
       </div>
